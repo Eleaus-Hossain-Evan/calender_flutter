@@ -20,7 +20,7 @@ class TileWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: double.infinity,
-      margin: EdgeInsets.all(4.w),
+      // margin: EdgeInsets.all(4.w),
       decoration: BoxDecoration(
         color: event.isComplete ? AppColors.blueGray[100] : AppColors.white,
         borderRadius: BorderRadius.circular(6.r),
